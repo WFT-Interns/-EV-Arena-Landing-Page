@@ -1,3 +1,55 @@
-h1{
-    background-color: red;
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+    list-style: none;
+}
+
+
+
+.navbar ul li{
+    margin-right: 100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid white;
+}
+
+
+.background_img{
+    margin: 20px;
+
+}
+.text {
+  position: absolute;
+  color: white;
+  top: 55%;
+  left: 45%;
+}
+
+.button_choose_ev{
+    position: absolute;
+    width: 473px;
+    height: 84px;
+    left: 628px;
+    top: 833px;
+    color: white;
+    background: rgba(71, 175, 113, 0.51);
+    border-radius: 10px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    top: 70%;
+    left: 40%;
 }
