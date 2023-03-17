@@ -2,14 +2,14 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
 .navbar ul{
     display: flex;
     margin-top: 0%;
     justify-content: center;
     list-style: none;
 }
-
-
 
 .navbar ul li{
     margin-right: 100px;
@@ -26,7 +26,7 @@ body{
 
 .background_img{
     margin: 20px;
-
+    
 }
 .text {
   position: absolute;
@@ -53,3 +53,82 @@ body{
     top: 70%;
     left: 40%;
 }
+
+.upper_text{
+    /* justify-content: center; */
+    text-align: center;
+}
+.second_page ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.second_page ul li{
+    margin: 30px;
+    width: 5%;
+    text-align: center;
+    padding: 10px;
+    background: #47AF71;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.carousel{
+
+    width: 98%;
+    height: 704px;
+    left: 0px;
+    top: calc(50% - 704px/2);
+     margin: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) -2.63%, #000000 114.7%);
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) -2.63%, #000000 114.7%); */
+}
+.carousel_items{ 
+    position: relative;
+    width: 70%;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    transform: translate(-50%,-50%);
+}
+
+.carousel_item{
+    width: 668px;
+    height: 504px;
+    background: url(static/Screen_Shot_2023-03-14_at_12.05\ 1.png);
+    margin-left: 25%;
+
+}
+
+.carousel_brands{
+    width: 126px;
+    height: 168px;
+    left: -200px;
+    top: -115px;
+    position: absolute;
+    background: url(static/Screen_Shot_2023-03-14_at_12.09\ 1.png);
+}
+.compare_button{
+    margin-bottom: 200px;
+}
+
+.compare_btn{
+    width: 262px;
+    height: 66px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    
+}
+
