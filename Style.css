@@ -8,15 +8,46 @@ body{
     position: absolute;
     margin-top: 50px;
     right: 1900px;
-    background-color: red;
+
+}
+.charging{
+    position: absolute;
+    right: 1600px;
+    align-items: center;
+    margin-top: -20px;
 }
 
-/* .charging{
-    background-image: url(static/location-01.png);
-    background-repeat: no-repeat;
-    height: 50px;
-    left: 10px;
+/* .home_btn{
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: #47AF71;
+    border-radius: 3px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
 } */
+
+
+.home-btn{
+    margin-left: 80px;
+    background-color: #47AF71;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    bottom: -80px;
+    
+} 
+
+#search{
+    position: absolute;
+    right: 3px;
+}
 
 .navbar ul{
     display: flex;
@@ -42,9 +73,13 @@ body{
 
 
 .background_img{
+    width: 100%;
     margin: 20px;
     
 }
+
+
+
 
 .text {
   position: absolute;
