@@ -4,6 +4,20 @@ body{
 }
 
 
+.logo{
+    position: absolute;
+    margin-top: 50px;
+    right: 1900px;
+    background-color: red;
+}
+
+/* .charging{
+    background-image: url(static/location-01.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    left: 10px;
+} */
+
 .navbar ul{
     display: flex;
     margin-top: 0%;
@@ -22,6 +36,9 @@ body{
     margin-bottom: 50px;
     border: 2px solid white;
 }
+
+
+
 
 
 .background_img{
