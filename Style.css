@@ -3,32 +3,18 @@ body{
     padding: 0;
 }
 
-
 .logo{
     position: absolute;
     margin-top: 50px;
-    right: 1900px;
+    right: 2100px;
 
 }
 .charging{
     position: absolute;
-    right: 1600px;
+    right: 1800px;
     align-items: center;
     margin-top: -20px;
 }
-
-/* .home_btn{
-    height: 40px;
-    width: 90px;
-    color: white;
-    background-color: #47AF71;
-    border-radius: 3px;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-
-} */
-
 
 .home-btn{
     margin-left: 80px;
@@ -42,12 +28,87 @@ body{
     border-radius: 10px;
     bottom: -80px;
     
-} 
+}
+
+.other_links{
+
+    display: flex;
+    
+}
+#ev-finder-link{
+    text-decoration: none;
+    color: black;
+}
+
+.ev-finder{
+    background-color: #47AF71;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+}
+
+#ev-finder-link:hover{
+    background-color: #47AF71;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+}
+
+.compare:hover{
+    background-color: #47AF71;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+}
+.browse:hover{
+    background-color: #47AF71;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+}
 
 #search{
     position: absolute;
     right: 3px;
 }
+
+#home-btn-ev-finder{
+    text-decoration: none;
+    color: black;
+}
+
+#home-btn-ev-finder:hover{
+    background-color: #47AF71;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+}
+
 
 .navbar ul{
     display: flex;
@@ -70,16 +131,15 @@ body{
 
 
 
-
+.first-page{
+    margin-right: 30px;
+}
 
 .background_img{
     width: 100%;
     margin: 20px;
     
 }
-
-
-
 
 .text {
   position: absolute;
@@ -108,9 +168,10 @@ body{
 }
 
 .upper_text{
-    /* justify-content: center; */
     text-align: center;
 }
+
+
 .second_page ul {
     display: flex;
     list-style: none;
@@ -127,45 +188,54 @@ body{
     font-weight: bold;
 }
 
-.carousel{
 
-    width: 98%;
-    height: 704px;
-    left: 0px;
-    top: calc(50% - 704px/2);
-     margin: 20px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) -2.63%, #000000 114.7%);
-    border: 1px solid #D6D6D6;
-    border-radius: 10px;
+  /*  */
 
-    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) -2.63%, #000000 114.7%); */
-}
-.carousel_items{ 
+  .ev-slider-container{
     position: relative;
-    width: 70%;
-    height: 400px;
-    left: 50%;
-    top: 50%;
-    background-repeat: no-repeat;
-    transform: translate(-50%,-50%);
+    margin: auto;
+    width: 97.5%;
+    height: 840px;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) -2.63%, #000000 114.7%);
 }
 
-.carousel_item{
-    width: 668px;
-    height: 504px;
-    background: url(static/Screen_Shot_2023-03-14_at_12.05\ 1.png);
-    margin-left: 25%;
-
+.ev-slider-image-container{
+    display: none;
+    height: 800px;
+    width: 1100px;
+    margin: auto;
 }
 
-.carousel_brands{
-    width: 126px;
-    height: 168px;
-    left: -200px;
-    top: -115px;
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
     position: absolute;
-    background: url(static/Screen_Shot_2023-03-14_at_12.09\ 1.png);
-}
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  /*  */
+
 .compare_button{
     margin-bottom: 200px;
 }
@@ -235,3 +305,5 @@ body{
     left: 720px;
     color: white;
 }
+
+

@@ -6,44 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Style.css">
+    <script src="script.js" defer></script>
     <title>EV Arena</title>
 </head>
 
 <body>
-<div class="navbar_container">
+    
+    <div class="navbar_container">
         <nav class="navbar">
             <ul>
-                <div class="logo"> <img src="./static/logo.png" alt=""> </div>
-                <li> <img class="charging" src="./static/Group 18.png" alt=""> </li>
+                <div class="logo"> <img src="./assets/logo.png" alt=""> </div>
+                <li> <img class="charging" src="./assets/Group 18.png" alt=""> </li>
                 <div class="home-div">
                     <li class="home-btn">Home</li>
                 </div>
-                <li>EV Finder</li>
-                <li>Compare</li>
-                <li>Browse</li>
-                <li id="search"> <img src="./static/Search.svg" alt=""> </li>
+                <div class="other_links">
+                    <li > <a id="ev-finder-link" href="./Ev-Finder.html" target="_blank">EV Finder</a> </li>
+                    <li class="compare">Compare</li>
+                    <li class="browse">Browse</li>
+                </div>
+                <li id="search"> <img src="./assets/Search.svg" alt=""> </li>
             </ul>
         </nav>
-    </div> 
+    </div>
 
-<!------------------------- Navbar  --------------------------------------------->
+    
 
-<!------------------------- Navbar  --------------------------------------------->
-
+    <!------------------------- Navbar  --------------------------------------------->
+    
 
     <div class="first-page">
         <div class="background_img">
 
-                <img src="./static/ezgif.com-video-to-gif (5).gif" width="100%" height="100%" alt="">
-                <!-- <video autoplay loop muted>
-                    <source src="static/Jaguar E-PACE _ Power of Plug-in Hybrid.mp4" class="background_video" type="video/mp4">
+            <img src="./assets/ezgif.com-video-to-gif (5).gif" width="100%" height="100%" alt="">
+            <!-- <video autoplay loop muted>
+                    <source src="assets/Jaguar E-PACE _ Power of Plug-in Hybrid.mp4" class="background_video" type="video/mp4">
                 </video> -->
-                <div class="text">
-                    <h1>Compare & Drive</h1>
-                    <h4>Away The Best EV For You</h4>
+            <div class="text">
+                <h1>Compare & Drive</h1>
+                <h4>Away The Best EV For You</h4>
 
-                </div>
-                <button class="button_choose_ev">Why Choose EV?</button>
+            </div>
+            <button class="button_choose_ev">Why Choose EV?</button>
 
 
         </div>
@@ -59,21 +63,28 @@
         </div>
         <ul>
             <li>Car</li>
-            <li style="background-color: white;">Bike</li>
-            <li style="background-color: white;">Scooter</li>
+            <li class="bike_hover" style="background-color: white;">Bike</li>
+            <li class="scooter_hover" style="background-color: white;">Scooter</li>
         </ul>
     </div>
 
-    <div class="carousel">
 
-        <div class="carousel_items">
-            <div class="carousel_item">
-
-            </div>
-            <div class="carousel_brands">
-
-            </div>
+    <div class="ev-slider-container">
+        <!-- car images container -->
+        <div class="ev-slider-image-container">
+            <img src="assets/carousel 1.png" style="width:100%">
         </div>
+        <div class="ev-slider-image-container">
+            <img src="assets/carousel 2.png" style="width:100%">
+        </div>
+        <div class="ev-slider-image-container">
+            <img src="assets/carousel 4.png" style="width:100%">
+        </div>
+        <div class="ev-slider-image-container">
+            <img src="assets/carousel 5.png" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
     </div>
 
     <div class="compare_button">
@@ -96,25 +107,25 @@
         </ul>
 
         <div class="footer_logo">
-            <img src="static/logo.png" alt="">
+            <img src="assets/logo.png" alt="">
             <p class="rights">All rights reserved 2023</p>
         </div>
 
 
         <div class="social_media">
             <ul class="social_media_list">
-                <li class="socials"> <img src="static/fb.png" alt=""> </li>
-                <li class="socials"> <img src="static/insta.png" alt=""> </li>
-                <li class="socials"> <img src="static/twitter.png" alt=""> </li>
-                <li class="socials"> <img src="static/youtube.png" alt=""> </li>
-                
+                <li class="socials"> <img src="assets/fb.png" alt=""> </li>
+                <li class="socials"> <img src="assets/insta.png" alt=""> </li>
+                <li class="socials"> <img src="assets/twitter.png" alt=""> </li>
+                <li class="socials"> <img src="assets/youtube.png" alt=""> </li>
+
             </ul>
         </div>
 
         <div class="company">
             <div class="company_name_loc">
                 <h3>WaterFlow Technology</h6>
-                <p>Kathmandu, Nepal</p>
+                    <p>Kathmandu, Nepal</p>
             </div>
         </div>
 
