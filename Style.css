@@ -140,14 +140,6 @@ body{
     margin: 20px;
     
 }
-/* 
-.text {
-  position: absolute;
-  color: white;
-  font-family: 'Gotham', sans-serif;
-  top: 55%;
-  left: 45%;
-} */
 
 .big-text-bg{
     display: flex;
@@ -342,8 +334,7 @@ body{
 }
 .company_name_loc{
     position: relative;
-    left: 720px;
+    left: 820px;
     color: white;
+    margin-top: 20px;
 }
-
-

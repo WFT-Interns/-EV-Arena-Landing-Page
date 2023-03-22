@@ -1,0 +1,120 @@
+.ev-finder-page{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    min-height: 1200px;
+
+}
+.choosing-ev{
+    margin-bottom: -20px;
+}
+
+.choosing-ev ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.choosing-ev li{
+    padding-right: 50px;
+    font-family: "Gotham";
+    font-size: 50px;
+    padding-left: 50px;
+    /* width: 53px; */
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.car_active{
+    /* width: 261px; */
+    height: 55px;
+    background-color: #DADADA;
+    text-align: center;
+}
+
+.search_options{
+    width:1106px;
+    height:233px;
+    margin-top:-100px;
+    /* background-color: gray; */
+    border: 1px solid black;
+    margin-left: 650px;
+    border-radius: 15px;
+
+    z-index: 10;
+    position: relative;
+    background-color: #ffffff;
+    
+
+}
+.show_options{
+    width:2300px;
+    height:599px;
+    margin-top: -100px;
+    /* background-color: gray; */
+    border: 1px solid black;
+    margin-left: 45px;
+    border-radius: 15px;
+
+
+}
+
+
+.dropdown_options{
+    width: 261px;
+    height: 55px;
+    top: 47px;
+    margin-top: 60px;
+    margin-left: 60px;
+    /* position: relative; */
+    left: 141px;
+    border-radius: 5px;
+    /* padding-right: 5px; */
+}
+
+.date{
+    width: 110px;
+    height: 55px;
+    margin-right: 4px;
+
+}
+.date-last{
+    margin-left: 6px;
+}
+
+.slider_and_button{
+    display: flex;
+}
+
+.slider_range{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#slider{
+    height: 14px;
+    width: 500px;
+}
+
+.search_button{
+    width:261px;
+    height:55px;
+    margin-left: 53px;
+    background-color: black;
+    color: white;
+    font-family: "Gotham";
+    font-size: 25px;
+}
+
+.range_numbers{
+    position: relative;
+    display: flex;
+    top: -30px;
+    margin-left: 140px;
+}
+.last_range{
+    margin-left: 400px;
+}

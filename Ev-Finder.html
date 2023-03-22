@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Style.css">
-    <link rel="stylesheet" href="./ev-finder-css.css">
+    <link rel="stylesheet" href="./EV-Finder.css">
 
     <title>EV Finder</title>
 </head>
@@ -22,9 +22,9 @@
                     <li><a id="home-btn-ev-finder" href="./Home.html">Home</a> </li>
                 </div>
                 <div class="other_links">
-                    <li class="ev-finder"> <a id="ev-finder-link" href="./Ev-Finder.html" target="_blank">EV Finder</a>
+                    <li class="ev-finder"> <a id="ev-finder-link" href="./Ev-Finder.html" ">EV Finder</a>
                     </li>
-                    <li class="compare">Compare</li>
+                    <li class=" compare">Compare</li>
                     <li class="browse">Browse</li>
                 </div>
                 <li id="search"> <img src="./assets/Search.svg" alt=""> </li>
@@ -36,10 +36,62 @@
     <div class="ev-finder-page">
         <div class="choosing-ev">
             <ul>
-                <li>Car</li>
+                <li class="car_active">Car</li>
                 <li>Bike</li>
                 <li>Scooter</li>
             </ul>
+        </div>
+
+        <div class="search_options">
+
+            <div class="dropdown_contents">
+                <select class="dropdown_options">
+                    <option hidden selected>EV - Brand Range</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <select class="dropdown_options">
+                    <option hidden selected>EV - Range</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <select class="dropdown_options date">
+                    <option value="">2018</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <span class="to"> to </span>
+                <select class="dropdown_options date date-last">
+                    <option value="">2023</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+
+            <div class="slider_and_button">
+                <div class="slider_range">
+                    <label  for="slider">Slider range:</label>
+                    <input type="range" id="slider" name="slider" min="0" max="100" step="1">
+                    <button class="search_button"> Search EV </button>
+                </div>
+
+                
+
+            </div>
+            <div class="range_numbers">
+                <p>$10,000</p>
+                <p class="last_range">$1,000,000</p>
+            </div>
+
+
+        </div>
+
+        <div class="show_options">
+
         </div>
     </div>
 
